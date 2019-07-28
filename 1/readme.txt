@@ -1,3 +1,3 @@
- ������Ϊ֪������'�Ӹ���Ҷ�任���׵�С���任��һ��,https://zhuanlan.zhihu.com/p/66189212'��Դ���롣
-1��Ϊ��˵������Ҷ�任��ԭ���������������'y=sin(3t)','y1=sin(3t)*sin(4t)','y2=sin(3t)*sin(3.1t)','y3=sin(3t)*sin(3t)'��4��������������(0,50)�ϵĻ���ֵ��
-2�������������'../Basic'Ŀ¼�µ�My_FFT�������п��ٸ���Ҷ�任����Ҳ���Ե���Matlab�Դ���fft�������и���Ҷ�任��
+本程序为知乎文章《从傅里叶变换进阶到小波变换（一）》 https://zhuanlan.zhihu.com/p/66189212 的源代码。
+1、为了说明傅里叶变换的原理，本程序计算了'y=sin(3t)','y1=sin(3t)*sin(4t)','y2=sin(3t)*sin(3.1t)','y3=sin(3t)*sin(3t)'等4个函数的在区间(0,50)上的积分值。
+2、本程序调用了'../Basic'目录下的My_FFT函数进行快速傅里叶变换，你也可以调用Matlab自带的fft函数进行傅里叶变换，使用'help fft'命令查看fft使用方法。
