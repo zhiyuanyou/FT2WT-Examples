@@ -1,3 +1,3 @@
-1��������Ϊ֪������'�Ӹ���Ҷ�任���׵�С���任������,https://zhuanlan.zhihu.com/p/68323379'��Դ���롣
-2��'STFT_test_window.m'�����˴������Ĵ����ֱ�Ϊ[0.02,0.1,0.3]ʱ��STFT�����
-3��'STFT_funciton.m'Ϊ'STFT_test_window.m'����ɺ�����
+本程序为知乎文章《从傅里叶变换进阶到小波变换（三）》 https://zhuanlan.zhihu.com/p/68323379 的源代码。
+1、'STFT_test_window.m'测试了窗函数的窗宽分别为[0.02,0.1,0.3]时的STFT结果。
+2、'STFT_funciton.m'为'STFT_test_window.m'的组成函数。
