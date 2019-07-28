@@ -1,8 +1,8 @@
-±¾³ÌÐòÎªÖªºõÎÄÕÂ'´Ó¸µÀïÒ¶±ä»»½ø½×µ½Ð¡²¨±ä»»£¨¶þ£©,https://zhuanlan.zhihu.com/p/66246381'µÄÔ´´úÂë¡£
-1¡¢'left_right_FFT.m'³ÌÐò¼ÆËãÁË'y1=sin(5t)*(0<t<25)+sin(t)*(25<t<50)', 'y2=sin(t)*(0<t<25)+sin(5t)*(25<t<50)'Á½¸öº¯ÊýµÄ¸µÀïÒ¶±ä»»£¬ÒÔ¼°Æä×óÓÒÁ½°ë²¿·ÖµÄ¸µÀïÒ¶±ä»»¡£
-2¡¢'window.m'³ÌÐò»­³öÁË´°º¯ÊýµÄÍ¼£¬ÓÐÖúÓÚÀí½â´°º¯ÊýµÄ×÷ÓÃ¡£
-3¡¢'STFT_main.m'³ÌÐò¼ÆËãÁË'y = sin(20*t).*(t<25) + sin(t).*(t>=25)'º¯ÊýµÄÔÚ´°º¯Êý¿í¶ÈÎª10£¬Î»ÖÃ·Ö±ðÎª[5,25,45]Ê±µÄ¸µÀïÒ¶±ä»»£¬»¹¼ÆËãÁË'y = sin(20*t).*(t<25) + sin(t).*(t>=25)'º¯ÊýµÄÔÚ´°º¯Êý¿í¶ÈÎª10µÄ¶ÌÊ±¸µÀïÒ¶±ä»»¡£
-4¡¢'STFT_funciton.m'ÎªSTFT_mainµÄ×é³Éº¯Êý¡£
-5¡¢'base_function.m'»­³öÁËFTºÍDTFTµÄ»ùº¯ÊýµÄÍ¼£¬ÓÐÖúÓÚ´Ó»ùº¯Êý½Ç¶ÈÀí½âFTºÍDTFT¡£
-6¡¢±¾³ÌÐòµ÷ÓÃÁË'../Basic'Ä¿Â¼ÏÂµÄMy_FFTº¯Êý½øÐÐ¿ìËÙ¸µÀïÒ¶±ä»»£¬ÄãÒ²¿ÉÒÔµ÷ÓÃMatlab×Ô´øµÄfftº¯Êý½øÐÐ¸µÀïÒ¶±ä»»¡£
-7¡¢ÓÉÓÚµÚ¶þÆªÎÄÕÂ»¹Éæ¼°µ½ÁËDFT£¬Äã¿ÉÒÔÔÚ'../Basic'Ä¿Â¼ÏÂÕÒµ½My_DFTº¯Êý¡£My_FFTº¯ÊýÊÇMy_DFTº¯ÊýµÄ¿ìËÙËã·¨£¬Á½¸öº¯ÊýµÄ¼ÆËã½á¹ûÏàÍ¬¡£
+æœ¬ç¨‹åºä¸ºçŸ¥ä¹Žæ–‡ç« ã€Šä»Žå‚…é‡Œå¶å˜æ¢è¿›é˜¶åˆ°å°æ³¢å˜æ¢ï¼ˆäºŒï¼‰ã€‹ https://zhuanlan.zhihu.com/p/66246381 çš„æºä»£ç ã€‚
+1ã€'left_right_FFT.m'ç¨‹åºè®¡ç®—äº†'y1=sin(5t)*(0<t<25)+sin(t)*(25<t<50)', 'y2=sin(t)*(0<t<25)+sin(5t)*(25<t<50)'ä¸¤ä¸ªå‡½æ•°çš„å‚…é‡Œå¶å˜æ¢ï¼Œä»¥åŠå…¶å·¦å³ä¸¤åŠéƒ¨åˆ†çš„å‚…é‡Œå¶å˜æ¢ã€‚
+2ã€'window.m'ç¨‹åºç”»å‡ºäº†çª—å‡½æ•°çš„å›¾ï¼Œæœ‰åŠ©äºŽç†è§£çª—å‡½æ•°çš„ä½œç”¨ã€‚
+3ã€'STFT_main.m'ç¨‹åºè®¡ç®—äº†'y = sin(20*t).*(t<25) + sin(t).*(t>=25)'å‡½æ•°çš„åœ¨çª—å‡½æ•°å®½åº¦ä¸º10ï¼Œä½ç½®åˆ†åˆ«ä¸º[5,25,45]æ—¶çš„å‚…é‡Œå¶å˜æ¢ï¼Œè¿˜è®¡ç®—äº†'y = sin(20*t).*(t<25) + sin(t).*(t>=25)'å‡½æ•°çš„åœ¨çª—å‡½æ•°å®½åº¦ä¸º10çš„çŸ­æ—¶å‚…é‡Œå¶å˜æ¢ã€‚
+4ã€'STFT_funciton.m'ä¸ºSTFT_mainçš„ç»„æˆå‡½æ•°ã€‚
+5ã€'base_function.m'ç”»å‡ºäº†FTå’ŒDTFTçš„åŸºå‡½æ•°çš„å›¾ï¼Œæœ‰åŠ©äºŽä»ŽåŸºå‡½æ•°è§’åº¦ç†è§£FTå’ŒDTFTã€‚
+6ã€æœ¬ç¨‹åºè°ƒç”¨äº†'../Basic'ç›®å½•ä¸‹çš„My_FFTå‡½æ•°è¿›è¡Œå¿«é€Ÿå‚…é‡Œå¶å˜æ¢ï¼Œä½ ä¹Ÿå¯ä»¥è°ƒç”¨Matlabè‡ªå¸¦çš„fftå‡½æ•°è¿›è¡Œå‚…é‡Œå¶å˜æ¢ã€‚
+7ã€ç”±äºŽç¬¬äºŒç¯‡æ–‡ç« è¿˜æ¶‰åŠåˆ°äº†DFTï¼Œä½ å¯ä»¥åœ¨'../Basic'ç›®å½•ä¸‹æ‰¾åˆ°My_DFTå‡½æ•°ã€‚My_FFTå‡½æ•°æ˜¯My_DFTå‡½æ•°çš„å¿«é€Ÿç®—æ³•ï¼Œä¸¤ä¸ªå‡½æ•°çš„è®¡ç®—ç»“æžœç›¸åŒã€‚
