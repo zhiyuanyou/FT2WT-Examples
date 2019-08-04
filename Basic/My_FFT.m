@@ -2,6 +2,7 @@ function Y = My_FFT(y)
     % My_FFT: find the FFT of y
     % input: 
     % y: signal y
+    % output:
     % Y: FFT of y
     
     % make the length of y is 2^n
